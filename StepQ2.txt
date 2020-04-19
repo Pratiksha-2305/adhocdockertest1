@@ -1,0 +1,5 @@
+# task 2
+
+docker build -t adhoc:pratiksha://github.com/redashu/summer2020dockertest.git
+docker tag adhoc:pratiksha prav/prav
+docker push prav/prav

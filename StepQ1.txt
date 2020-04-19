@@ -1,0 +1,16 @@
+# task 1
+mkdir prav
+cd prav
+vim Dockerfile
+
+# add follwing in docker file
+
+from apline
+maintainer prav
+cmd date +%T 
+
+# to build image and run conatiner
+
+docker build -t alpine:pratiksha.
+docker run -itd --name pratikshac1q1 alpine:pratiksha > cat question1.txt
+docker start -i piratiksha1q1 | > cat >> question1.txt
